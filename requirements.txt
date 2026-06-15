@@ -1,5 +1,6 @@
-
+wheel
+setuptools
 python-telegram-bot
 yt-dlp
-flask
 shazamio
+flask
