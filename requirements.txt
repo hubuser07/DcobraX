@@ -1,4 +1,5 @@
 python-telegram-bot==21.6
 yt-dlp
 flask
-shazamio==0.8.1
+shazamio==0.7.0
+numpy==2.1.2
