@@ -267,7 +267,7 @@ async def handle_audio(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         shazam = Shazam()
 
-        result = await shazam.recognize(local_file)
+        result = await shazam.recognize_song(local_file)
 
         if result.get("track"):
 
